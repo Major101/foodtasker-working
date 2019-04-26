@@ -25,7 +25,7 @@ SECRET_KEY = '99r%y4=)!+!c%q9a#e_2(09(4p9=y%023+5ham+c8^spd5#8m0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'foodtaskerapp',
 ]
 
 MIDDLEWARE = [
