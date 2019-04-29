@@ -1,21 +1,13 @@
+{% extends 'base_signup.html' %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-</head>
-<body>
-    Restaurant Sign Up
+{% block title %}Sign Up{% endblock %}
+{% block heading %}Restaurant - Sign In{% endblock %}
 
+{% block content %}
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
         {{ user_form }}
         {{ restaurant_form }}
         <button type="submit">Sign Up</button>
     </form>
-</body>
-</html>
+{% endblock %}
