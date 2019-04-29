@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from foodtaskerapp import views
 from django.contrib.auth import views as auth_views
 from django.conf.urls.static import static
@@ -31,5 +31,9 @@ urlpatterns = [
     path('restaurant/sign-out/', auth_views.LogoutView.as_view(next_page='/'), name='restaurant-sign-out'),
     # Home Page
     path('restaurant/', views.restaurant_home, name='restaurant-home'),
+    # FACEBOOK AUTHORIZATION URL
+    path('api/social/', include('rest_framework_social_oauth2.urls')),
+    # /convert-token (sign in/ sign up)
+    # /revoke-token (sign out)
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
