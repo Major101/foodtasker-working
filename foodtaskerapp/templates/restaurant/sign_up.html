@@ -1,13 +1,14 @@
 {% extends 'base_signup.html' %}
-{% load static %}
+{% load bootstrap3 %}
 {% block title %}Sign Up{% endblock %}
 {% block heading %}Restaurant - Sign In{% endblock %}
 
 {% block content %}
     <form method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ user_form }}
-        {{ restaurant_form }}
-        <button type="submit">Sign Up</button>
+        {% bootstrap_form user_form %}
+        {% bootstrap_form restaurant_form %}
+        <button class="btn btn-pink pull-right" type="submit">Sign Up</button>
     </form>
+    <a href="{% url 'restaurant-sign-in' %}">You have an account</a>
 {% endblock %}
