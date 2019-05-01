@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from foodtaskerapp import views
+from foodtaskerapp import views, apis
 from django.contrib.auth import views as auth_views
 from django.conf.urls.static import static
 from django.conf import settings
@@ -43,5 +43,8 @@ urlpatterns = [
     path('restaurant/meal/edit/<int:meal_id>', views.restaurant_edit_meal, name='restaurant-edit-meal'),
     path('restaurant/order/', views.restaurant_order, name='restaurant-order'),
     path('restaurant/report/', views.restaurant_report, name='restaurant-report'),
+
+    # APIs
+    path('api/customer/restaurants/', apis.customer_get_restaurants),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
