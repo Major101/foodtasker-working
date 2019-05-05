@@ -4,6 +4,11 @@
     <list default="true" id="28b62767-e673-4d77-bd55-b0b22d83f8dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FoodtaskerAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FoodtaskerAPI/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodtaskerapp/apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerapp/apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodtaskerapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodtaskerapp/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerapp/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodtaskerapp/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerapp/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +20,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FoodtaskerAPI/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foodtaskerapp/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="390">
+              <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -37,13 +33,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foodtaskerapp/apis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="375">
+              <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FoodtaskerAPI/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="47" column="69" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+            <state relative-caret-position="330">
+              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="36" />
               <folding>
                 <element signature="e#637#669#0" expanded="true" />
               </folding>
@@ -89,26 +85,26 @@
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/sign_in.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/sign_up.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/account.html" />
-        <option value="$PROJECT_DIR$/foodtaskerapp/templates/base.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/forms.py" />
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/add_meal.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/static/css/style.css" />
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/edit_meal.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/meal.html" />
-        <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/base.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/admin.py" />
-        <option value="$PROJECT_DIR$/foodtaskerapp/models.py" />
         <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/order.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/views.py" />
-        <option value="$PROJECT_DIR$/foodtaskerapp/serializers.py" />
-        <option value="$PROJECT_DIR$/FoodtaskerAPI/urls.py" />
+        <option value="$PROJECT_DIR$/foodtaskerapp/models.py" />
+        <option value="$PROJECT_DIR$/foodtaskerapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/foodtaskerapp/templates/restaurant/base.html" />
         <option value="$PROJECT_DIR$/foodtaskerapp/apis.py" />
+        <option value="$PROJECT_DIR$/FoodtaskerAPI/urls.py" />
+        <option value="$PROJECT_DIR$/foodtaskerapp/serializers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="794" />
-    <option name="y" value="59" />
+    <option name="x" value="729" />
+    <option name="y" value="27" />
     <option name="width" value="1187" />
     <option name="height" value="970" />
   </component>
@@ -118,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +135,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,18 +210,20 @@
       <workItem from="1556533376940" duration="4965000" />
       <workItem from="1556597397245" duration="3472000" />
       <workItem from="1556600905396" duration="5431000" />
-      <workItem from="1556687175651" duration="1584000" />
+      <workItem from="1556687175651" duration="10045000" />
+      <workItem from="1556868819083" duration="1305000" />
+      <workItem from="1557039836001" duration="2484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32165000" />
+    <option name="totallyTimeSpent" value="44415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="794" y="59" width="1187" height="970" extended-state="0" />
+    <frame x="729" y="27" width="1187" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19719544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20420684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,13 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodtaskerapp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -358,27 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/restaurant/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/restaurant/meal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
           <caret line="40" column="10" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodtaskerapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,20 +390,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodtaskerapp/serializers.py">
+    <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/restaurant/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodtaskerapp/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodtaskerapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FoodtaskerAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="47" column="69" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+        <state relative-caret-position="330">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="36" />
           <folding>
             <element signature="e#637#669#0" expanded="true" />
           </folding>
@@ -438,10 +426,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foodtaskerapp/apis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodtaskerapp/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -44,7 +44,11 @@ urlpatterns = [
     path('restaurant/order/', views.restaurant_order, name='restaurant-order'),
     path('restaurant/report/', views.restaurant_report, name='restaurant-report'),
 
-    # APIs
+    # APIs for customers
     path('api/customer/restaurants/', apis.customer_get_restaurants),
+    path('api/customer/meals/<int:restaurant_id>', apis.customer_get_meals),
+    path('api/customer/order/add/', apis.customer_add_order),
+    path('api/customer/order/latest/', apis.customer_get_latest_order),
+    path('api/restaurant/order/notification/<str:last_request_time>/', apis.restaurant_order_notification),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
